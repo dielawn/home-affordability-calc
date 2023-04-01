@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: fit-content;
+    padding: 10px;
+    
+}
+.descriptionContainer{
+    grid-column: 1/4;
+}
+.inputContainer{
+    grid-column: 1/4;
+    grid-row: 2;
+display: flex;
+justify-content: space-around;
+}
+
+.incomeContainer{
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.expenseContainer{
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.ratioContainer{
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.buttonContainer{
+    grid-row: 3;
+}
+
+.approvedDenied{
+    grid-row: 5;
+    grid-column: 1/4;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Allerta Stencil', sans-serif;
+}

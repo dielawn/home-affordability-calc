@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home affordability</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+   <div class="descriptionContainer">
+    <p id="twentyEightThirtySix">The 28/36 rule states that total housing costs should not exceed 28% of gross monthly income.
+        <br> Total debt payments should not exceed 36% of gross monthly income.
+        <br> Dave Ramsey's rule is total housing cost should not exceed 20% of net monthly income.
+    </p>
+   </div>
+
+<div class="inputContainer">
+    <input type="text" id="incomeInput" placeholder="Monthly Income"> 
+
+<input type="text" id="housingCostInput" placeholder="Monthly Housing Cost"> 
+
+<input type="text" id="debtInput" placeholder="Monthly debt cost">
+</div>
+
+<div class="incomeContainer">
+    <h4>Monthly Income</h4>
+<p id="monthlyIncomeTxt">Gross or Net Income:</p>
+<p id="twentyTxt">20% of income:</p>
+<p id="twentyEightTxt">28% of income: </p>
+<p id="thirtyEightTxt">38% of income:</p>
+</div>
+
+<div class="expenseContainer">
+<h4>Monthly Expenses</h4>
+<p id="housingCostTxt">Monthly Housing: </p>
+<p id="debtTxt">Monthly Debt: </p>
+<p id="totalDebt">Debt & Housing: </p>
+
+</div>
+
+<div class="ratioContainer">
+<h4>Debt to Income</h4>
+<p id="frontEndTxt">Front-End ratio: </p>
+<p id="backEndTxt">Back-End ratio: </p>
+</div>
+
+<div class="buttonContainer">
+    <button id="calculate">Calculate</button>
+    <button id="clear">Clear</button>
+</div>
+
+<div class="approvedDenied" id="approvedDenied"></div>
+</div>
+</body>
+</html>
